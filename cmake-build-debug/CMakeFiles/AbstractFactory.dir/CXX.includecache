@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/acsim/CLionProjects/AbstractFactory/factory/AbstractFactory.h
+iostream
+-
+../model/plant/Plant.h
+C:/Users/acsim/CLionProjects/AbstractFactory/model/plant/Plant.h
+../model/animal/Animal.h
+C:/Users/acsim/CLionProjects/AbstractFactory/model/animal/Animal.h
+
+C:/Users/acsim/CLionProjects/AbstractFactory/main/main.cpp
+iostream
+-
+../factory/AbstractFactory.h
+C:/Users/acsim/CLionProjects/AbstractFactory/factory/AbstractFactory.h
+
+C:/Users/acsim/CLionProjects/AbstractFactory/model/animal/Animal.h
+
+C:/Users/acsim/CLionProjects/AbstractFactory/model/plant/Plant.h
+
